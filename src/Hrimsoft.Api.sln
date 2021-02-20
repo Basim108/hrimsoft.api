@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{863049CE-0556-4231-A019-762E2D059304}"
+ProjectSection(SolutionItems) = preProject
+	..\.gitignore = ..\.gitignore
+	..\LICENSE = ..\LICENSE
+	..\README.md = ..\README.md
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{9B6A74D1-B02A-4CB4-ACF8-632B4A539D9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{B1DECB19-6A41-472F-BCB5-069DFF6D9A45}"
+ProjectSection(SolutionItems) = preProject
+	..\.github\workflows\cd.yml = ..\.github\workflows\cd.yml
+	..\.github\workflows\ci.yml = ..\.github\workflows\ci.yml
+EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hrimsoft.Api", "Hrimsoft.Api\Hrimsoft.Api.csproj", "{B3D04DEF-659A-4B0F-8BDC-1ED68F563D9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9B6A74D1-B02A-4CB4-ACF8-632B4A539D9D} = {863049CE-0556-4231-A019-762E2D059304}
+		{B1DECB19-6A41-472F-BCB5-069DFF6D9A45} = {9B6A74D1-B02A-4CB4-ACF8-632B4A539D9D}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3D04DEF-659A-4B0F-8BDC-1ED68F563D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3D04DEF-659A-4B0F-8BDC-1ED68F563D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3D04DEF-659A-4B0F-8BDC-1ED68F563D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3D04DEF-659A-4B0F-8BDC-1ED68F563D9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

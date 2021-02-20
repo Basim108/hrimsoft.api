@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>Hrimsoft.Api</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Hellang.Middleware.ProblemDetails" Version="5.1.1" />
+      <PackageReference Include="Hrimsoft.Core" Version="0.0.2" />
+      <PackageReference Include="Hrimsoft.StringCases" Version="1.0.0" />
+      <PackageReference Include="Swashbuckle.AspNetCore" Version="6.0.7" />
+      <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="6.1.0" />
+    </ItemGroup>
+
+</Project>
