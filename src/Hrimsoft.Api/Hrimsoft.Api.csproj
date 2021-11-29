@@ -13,4 +13,19 @@
       <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="6.1.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <EmbeddedResource Update="HrimsoftApiLogs.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>HrimsoftApiLogs.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="HrimsoftApiLogs.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>HrimsoftApiLogs.resx</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
 </Project>
